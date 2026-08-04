@@ -2,19 +2,19 @@
 
 HubSpot MCP Pack
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
 | `hs_list_contacts` | Browse all contacts in your HubSpot workspace. Returns contact IDs, names, emails, and properties. Paginate with limit and after parameters. |
-| `hs_get_contact` | Fetch a contact\'s full profile by ID. Returns name, email, phone, company, and all custom properties. |
+| `hs_get_contact` | Fetch a contact's full profile by ID. Returns name, email, phone, company, and all custom properties. |
 | `hs_search_contacts` | Search contacts by name, email, or custom properties. Use when you need to find specific people in your database. |
 | `hs_list_companies` | Browse all companies in your HubSpot workspace. Returns company IDs, names, domains, and properties. Paginate with limit and after parameters. |
-| `hs_get_company` | Fetch a company\'s full profile by ID. Returns name, domain, industry, revenue, and all custom properties. |
+| `hs_get_company` | Fetch a company's full profile by ID. Returns name, domain, industry, revenue, and all custom properties. |
 | `hs_list_deals` | Browse all deals in your HubSpot workspace. Returns deal IDs, names, amounts, pipeline stages, and close dates. Paginate with limit and after parameters. |
-| `hs_get_deal` | Fetch a deal\'s full details by ID. Returns deal name, amount, stage, owner, and linked contacts and companies. |
+| `hs_get_deal` | Fetch a deal's full details by ID. Returns deal name, amount, stage, owner, and linked contacts and companies. |
 
 ## Quick Start
 
@@ -30,7 +30,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -54,7 +54,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
