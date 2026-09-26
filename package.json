@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-hubspot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HubSpot MCP Pack",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-3e7d96b62cb54aa2aadefe435f09e8d1750005018dca73b7bfeb3a13eca270d3",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-cf0ec39b0d655f68676808df3663209d8cceeba2626c14fbcd54ee1c898d2861",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
