@@ -1,0 +1,121 @@
+[
+  {
+    "name": "hs_list_contacts",
+    "description": "Browse all contacts in your HubSpot workspace. Returns contact IDs, names, emails, and properties. Paginate with limit and after parameters.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Maximum number of contacts to return (default 10, max 100)"
+        },
+        "after": {
+          "type": "string",
+          "description": "Pagination cursor from a previous response"
+        }
+      }
+    }
+  },
+  {
+    "name": "hs_get_contact",
+    "description": "Fetch a contact's full profile by ID. Returns name, email, phone, company, and all custom properties.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "HubSpot contact ID"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "hs_search_contacts",
+    "description": "Search contacts by name, email, or custom properties. Use when you need to find specific people in your database.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "description": "Search query (e.g., name or email)"
+        },
+        "limit": {
+          "type": "number",
+          "description": "Maximum number of results (default 10, max 100)"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    }
+  },
+  {
+    "name": "hs_list_companies",
+    "description": "Browse all companies in your HubSpot workspace. Returns company IDs, names, domains, and properties. Paginate with limit and after parameters.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Maximum number of companies to return (default 10, max 100)"
+        },
+        "after": {
+          "type": "string",
+          "description": "Pagination cursor from a previous response"
+        }
+      }
+    }
+  },
+  {
+    "name": "hs_get_company",
+    "description": "Fetch a company's full profile by ID. Returns name, domain, industry, revenue, and all custom properties.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "HubSpot company ID"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  {
+    "name": "hs_list_deals",
+    "description": "Browse all deals in your HubSpot workspace. Returns deal IDs, names, amounts, pipeline stages, and close dates. Paginate with limit and after parameters.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "number",
+          "description": "Maximum number of deals to return (default 10, max 100)"
+        },
+        "after": {
+          "type": "string",
+          "description": "Pagination cursor from a previous response"
+        }
+      }
+    }
+  },
+  {
+    "name": "hs_get_deal",
+    "description": "Fetch a deal's full details by ID. Returns deal name, amount, stage, owner, and linked contacts and companies.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "HubSpot deal ID"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  }
+]
